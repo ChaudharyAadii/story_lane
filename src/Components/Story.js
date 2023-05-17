@@ -35,7 +35,7 @@ function Story() {
     document.getElementById('text1').value = " ";
     document.getElementById('text2').value = " ";
     document.getElementById('text3').value = " ";
-    alert('Your response has been entered successfully')
+    alert('Your response has been submitted successfully');
   }
 
   const getUsers = async () => {
@@ -82,7 +82,7 @@ function Story() {
             <label>Your name....</label>
           </div>
           <div class="user-box">
-            <input type="text" name="department" id='text2' onChange={handleChange} />
+            <input type="text" name="department" id='text3' onChange={handleChange} />
             <label>Your department..</label>
           </div>
           <input id='submit' type="submit" />
