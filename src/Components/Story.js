@@ -74,15 +74,15 @@ function Story() {
         <h2>Enter Story</h2>
         <form onSubmit={handleSubmit}>
           <div class="user-box">
-            <input type="text" name="story" onChange={handleChange} />
+            <input type="text" name="story" id='text1' onChange={handleChange} />
             <label>Your Story....</label>
           </div>
           <div class="user-box">
-            <input type="text" name="name" onChange={handleChange} />
+            <input type="text" name="name" id='text2' onChange={handleChange} />
             <label>Your name....</label>
           </div>
           <div class="user-box">
-            <input type="text" name="department" onChange={handleChange} />
+            <input type="text" name="department" id='text2' onChange={handleChange} />
             <label>Your department..</label>
           </div>
           <input id='submit' type="submit" />
