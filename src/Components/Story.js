@@ -32,6 +32,10 @@ function Story() {
     setRefresh(!refresh);
     // console.log(form);
     console.log(data);
+    document.getElementById('text1').value = " ";
+    document.getElementById('text2').value = " ";
+    document.getElementById('text3').value = " ";
+    alert('Your response has been entered successfully')
   }
 
   const getUsers = async () => {
