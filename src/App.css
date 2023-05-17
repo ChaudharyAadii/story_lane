@@ -1,0 +1,36 @@
+/* Styles for screens up to 600px */
+body{
+  background-color: rgb(180, 158, 217);
+}
+@media (max-width: 600px) {
+
+  html {
+    /* Resetting user agent styles */
+    margin: 0;
+    padding: 0;
+    /* Add any other styles you want to apply to the html element */
+  }
+  
+}
+
+/* Styles for screens between 601px and 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+  html {
+    /* Resetting user agent styles */
+    margin: 0;
+    padding: 0;
+    /* Add any other styles you want to apply to the html element */
+  }
+  
+}
+
+/* Styles for screens above 901px */
+@media (min-width: 901px) {
+  html {
+    /* Resetting user agent styles */
+    margin: 0;
+    padding: 0;
+    /* Add any other styles you want to apply to the html element */
+  }
+  
+}

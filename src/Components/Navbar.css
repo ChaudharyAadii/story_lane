@@ -1,0 +1,54 @@
+/* .Navbar{
+    padding: 0px;
+} */
+/* #Navbar{
+    background-color: aqua;
+    color: brown;
+    padding: 0%;
+    /* margin-bottom: 40px; */
+    /* border: 0%; */
+    /* border-style: solid; */
+    /* border-color: #022439; */
+/* } */ 
+
+/* .navbar-nav{
+    border-style: solid;
+    border-color: #022439;
+} */
+
+/* #navbarNavAltMarkup{
+    border-style: solid;
+    border-color: #022439;
+} */
+
+/* .container-fluid{
+    border-style: solid;
+    border-color: #022439;
+} */
+
+.navbar{
+    /* background-color: rgb(125, 118, 181); */
+    background: linear-gradient(90deg, rgb(125, 118, 181), #000);
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    justify-content: left;
+    /* padding-bottom: 0%; */
+    padding: 12px;
+} 
+
+#links{
+    text-decoration: none;
+    /* text-decoration: none; */
+    color: black;
+    margin-left: 20px;
+}
+
+#links :hover{
+    color: white;
+    background-color: #022439;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    font-size: large;
+}

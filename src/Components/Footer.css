@@ -1,0 +1,31 @@
+.footer{
+  /* background: #f8fafc; */
+  background: linear-gradient(90deg, rgb(125, 118, 181), #000);
+  /* margin-top: 50px; */
+  border-style: solid;
+  border-top-color: #022439;
+  /* margin-top: 20px; */
+}
+
+/* #startButton {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+} */
+.myUl{
+  /* display: flex; */
+  /* float: left; */
+  /* align-items: end; */
+  /* align-content: start; */
+  /* text-align: left; */
+  /* float: inline-start; */
+  color: black;
+ 
+  padding: 3%;
+  font-size: larger;
+}
+
+.myUl.li.h5{
+  color: black;
+}

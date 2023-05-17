@@ -1,0 +1,98 @@
+/* Default Styles */
+* {
+	font-family: serif;
+  }
+  
+  .container div {
+	display: flex;
+  }
+  
+  .image {
+	float: left;
+	margin-bottom: 20px;
+  }
+  
+  .text {
+	align-items: start;
+  }
+  
+  #contact {
+	background: -webkit-linear-gradient(rgb(129, 129, 13), #022439);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+  
+  .myUl {
+	display: inline-block;
+	text-align: left;
+	color: #022439;
+  }
+  
+  .myUl li {
+	margin-top: 50px;
+  }
+  
+  .whoAmI {
+	-webkit-filter: blur(10px);
+	filter: blur(10px);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	border-radius: 30px;
+	margin-right: 100px;
+	margin-left: 40px;
+	margin-top: 40px;
+	width: 400px;
+	height: auto;
+	border-style: solid;
+	border-color: #022439;
+	border-width: 10px;
+  }
+  
+  img:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+  }
+  
+  li a {
+	margin-right: 40px;
+  }
+  
+  #creater {
+	margin-top: 40px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+	/* .container div {
+	  flex-direction: column;
+	} */
+  
+	.image {
+	  float: none;
+	  margin-bottom: 10px;
+	}
+  
+	.text {
+	  align-items: center;
+	  padding: 20px;
+	}
+  
+	.whoAmI {
+	  width: 80%;
+	  margin-right: 0;
+	  margin-left: 7%;
+	  /* margin-right: 5%; */
+	}
+  }
+  
+  @media screen and (max-width: 480px) {
+	.image,
+	.text {
+	  margin: 0;
+	}
+  
+	.myUl li {
+	  margin-top: 20px;
+	}
+  }
+  
