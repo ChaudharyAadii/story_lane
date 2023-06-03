@@ -6,6 +6,7 @@ import About from './Components/About';
 import Home from './Components/Home';
 // import Story from './Components/Story';
 import Story from './Components/Story';
+import ImageUpload from './Components/story2/ImageUpload';
 
 import {
   BrowserRouter as Router,
@@ -29,6 +30,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/story" element={<Story />} />
+            <Route path="/image" element={<Image />} />
           </Routes>
         </div>
       </Router>
